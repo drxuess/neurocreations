@@ -1,0 +1,101 @@
+{
+    "cordova-plugin-console": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-console.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-file": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-file.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-dialogs.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-globalization": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-globalization.git",
+            "subdir": "."
+        }
+    },
+    "com.synconset.cordovaHTTP": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drxuess/cordova-HTTP",
+            "subdir": "."
+        }
+    },
+    "org.apache.cordova.file": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apache/cordova-plugin-file",
+            "subdir": ".",
+            "ref": "r0.2.5"
+        }
+    },
+    "cordova-plugin-media": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git",
+            "subdir": "."
+        }
+    },
+    "com.brodysoft.sqlitePlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brodysoft/Cordova-SQLitePlugin",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-media-capture": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-media-capture.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-file-transfer": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-file-transfer.git",
+            "subdir": "."
+        }
+    },
+    "com.brodysoft.sqliteStorage": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brodysoft/Cordova-SQLitePlugin",
+            "subdir": "."
+        }
+    },
+    "plugin.http.request": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wf9a5m75/phonegap-http-request",
+            "subdir": "."
+        }
+    }
+}

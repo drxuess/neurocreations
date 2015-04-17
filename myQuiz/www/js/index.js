@@ -16,14 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
 function Login(){
     $(".errorMessage").fadeOut();
     var ip = "http://192.168.1.109/login.php";
     var name = $("[name='username']").val();
     var pass = $("[name='password']").val();
     var val = 0;
-    var httpReq = new plugin.HttpRequest();
+    /*var httpReq = new plugin.HttpRequest();
     if(isOnline()){
         console.log("Online");
         httpReq.post(ip, {
@@ -45,8 +44,10 @@ function Login(){
         if (pass === password) {
             val += 1;
         }
-    }
+    }*/
+    val = 2;
     if (val === 2) {
+        $("body").fadeOut();
         window.location.replace("dashboard.html");
     }
     else {

@@ -25,11 +25,8 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
-        <script type="text/javascript" src="js/libs/jqueryui/jquery-ui.min.js"></script>
-        
-        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/jquery-ui.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script>
@@ -42,8 +39,8 @@
         </script>
         <title>myQuiz</title>
     </head>
-    <body>
-        <div>
+    <body class="page">
+        <section id="holder">
             <div class="splash"></div>
             <div class="errorMessage">Your username and password do not match!</div>
             <div class="login">
@@ -54,6 +51,6 @@
                     <tr><td align="center"><input type="submit" class="button" value="Login" onClick="Login();"/></td></tr>
                 </table>
             </div>
-        </div>
+        </section>
     </body>
 </html>
