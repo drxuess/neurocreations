@@ -47,8 +47,7 @@ function Login(){
     }*/
     val = 2;
     if (val === 2) {
-        $("body").fadeOut();
-        window.location.replace("dashboard.html");
+        changePage("dashboard.html");
     }
     else {
         $(".errorMessage").fadeIn();
@@ -76,6 +75,7 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+        toggle();
         console.log('Received Event: ' + id);
     }
 };

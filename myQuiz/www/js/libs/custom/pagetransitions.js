@@ -1,4 +1,17 @@
-$(document).ready(function() {
+function toggle(){
+    $('#holder').toggleClass("visible");
+}
+
+function changePage(location){
+    color = $(this).data("color");
+    $('body').css('background-color', color );
+    $('#holder').css('opacity','0' );
+    window.setTimeout(function() {
+        // Redirects to new destination
+	window.location = location;
+    }, 250);
+}
+/*$(document).ready(function() {
 	$('#holder').toggleClass("visible");
 
 	$('a.link').click(function(event) {
@@ -20,4 +33,4 @@ $(document).ready(function() {
 		$('#holder').toggleClass("visible");
 	});
 
-});
+});*/
