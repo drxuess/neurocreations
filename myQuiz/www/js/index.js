@@ -75,7 +75,6 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        toggle();
         console.log('Received Event: ' + id);
     }
 };
