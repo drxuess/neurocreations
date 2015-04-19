@@ -8,22 +8,45 @@ and open the template in the editor.
     <head>
         <title>Dashboard</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
         <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
         <script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
         <script type="text/javascript" src="js/libs/jqueryui/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script>
-            document.addEventListener("backbutton", onBackKeyDown, false);
-            function onBackKeyDown(e){
-                e.preventDefault();
-            }
-        </script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
     </head>
+
     <body>
-        <div>TODO write content</div>
+        <nav class="menu-opener">
+            <div class="menu-opener-inner"></div>
+        </nav>
+        <nav class="menu">
+            <ul class="menu-inner">
+                <a href="#" class="menu-link">
+                    <li>Notifcations</li>
+                </a>
+                <a href="#" class="menu-link">
+                    <li>My Profile</li>
+                </a>
+                <a href="#" class="menu-link">
+                    <li>My Quizzes</li>
+                </a>
+                <a href="#" class="menu-link">
+                    <li>Friend's leaderboard</li>
+                </a>
+                <a href="#" class="menu-link">
+                    <li>Settings</li>
+                </a>
+            </ul>
+        </nav>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="menu-opener.js"></script>
+
     </body>
 </html>
+

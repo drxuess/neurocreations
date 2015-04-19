@@ -17,6 +17,9 @@
  * under the License.
  */
 
+$(".menu-opener").click(function(){
+  $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+});
 
 
 var app = {
@@ -40,6 +43,7 @@ var app = {
             e.preventDefault();
         }, false );
     }
+
 };
 
 app.initialize();

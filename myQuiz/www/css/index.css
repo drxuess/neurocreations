@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:900);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px); 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -167,3 +169,38 @@
     height: auto;
     color: red;
 }
+
+.button2 {
+  margin : 0 auto;
+  margin-top : 10px;
+  width : 200px;
+  height : 50px;
+  background : #37B06D;
+  overflow : hidden;
+  text-align : center;
+  transition : .2s
+}
+.clic {
+  color : white;
+  transition : .3s;
+}
+
+.hover {
+  position : relative;
+  border : 2px solid white;
+  width : 200px;
+  height : 200px;
+  margin-top: -100px;
+  background : #34475E;
+  left : -250px;
+  transition : .3s;
+  transform : rotate(20deg);
+  opacity : .8;
+}
+.sure {
+  margin-top : 37px;
+  margin-right : -135px;
+  color : white;
+  transform : rotate(-20deg);
+}
+
