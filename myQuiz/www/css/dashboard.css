@@ -25,8 +25,7 @@ body {
     background: url("https://a.desktopprassets.com/wallpapers/104a92d10b98c0e61b3753f0e9e0fb10c9f838af/preview_reclaimedwood_6.jpg") no-repeat;
     background-size:2000px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-}
-
+}  
 a {
     display: block;
     width: 100%;
@@ -95,7 +94,7 @@ a {
 .menu {
     background: #f1c40f;
     color: transparent;
-    height: 64px;
+    width: 150px;
     position: absolute;
     top: 2%;
     left: 1%;
@@ -103,12 +102,12 @@ a {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 0rem;
+    height: 0rem;
     z-index: -1;
 }
 .menu.active {
-    width: -webkit-calc(100% - 2rem);
-    width: calc(100% - 2rem);
+    height: -webkit-calc(100% - 2rem);
+    height: calc(100% - 2rem);
 }
 .menu.active .menu-link {
     color: white;
@@ -119,11 +118,11 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 100%;
     list-style-type: none;
     margin: 0;

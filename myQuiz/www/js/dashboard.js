@@ -16,9 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
+$(document).ready(function(){
 $(".menu-opener").click(function(){
   $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+});
 });
 
 

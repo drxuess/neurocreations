@@ -26,7 +26,9 @@
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#49c4ee;
+    background-image: url(../img/grasswallpaper.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     /*background-image:linear-gradient(top, #3b95d4 0%, #49c4ee 51%);
     background-image:-webkit-linear-gradient(top, #3b95d4 0%, #49c4ee 51%);
     background-image:-ms-linear-gradient(top, #3b95d4 0%, #49c4ee 51%);
